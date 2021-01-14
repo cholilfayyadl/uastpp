@@ -1,0 +1,45 @@
+
+@media screen and (min-width: 640px) {
+	.hubMobile {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width:640px) {
+	.hubDesktop {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.hubDesktop {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 720px) {
+	.hubMobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px) and (min-width:480px) {
+	.hubDesktop {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 480px) and (min-width:320px) {
+	.hubDesktop {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.hubDesktop {
+		display: none;
+	}
+}
+
+
